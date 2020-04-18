@@ -1,11 +1,12 @@
 package HW1;
 
 public class Q46 {
-	public static void main(String[] args) {
-		int Integer = 0; // k1
-		Integer int = 0; // k2
-		//int ismi java da tanýmlý bir isim olduðu için bu þekilde kullanýlamaz
-		Integer ++; // k3
-		int++; // k4
-		}
+String color = "red";
+private void printColor(String color) {
+color = "purple";
+System.out.print(color);
+}
+public static void main(String[] rider) {
+new Q46().printColor("blue");
+}
 }
